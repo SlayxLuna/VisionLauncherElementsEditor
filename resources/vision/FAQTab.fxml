@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx"
+	xmlns:fx="http://javafx.com/fxml" prefWidth="1020" prefHeight="680"
+	fx:controller="vision.controllers.VisionFAQController">
+	<center>
+		<VBox>
+			<TableView fx:id="faqTableView" VBox.vgrow="ALWAYS">
+				<columns>
+					<TableColumn fx:id="idColumn" text="ID" prefWidth="75" />
+					<TableColumn fx:id="titleColumn" text="Title"
+						prefWidth="175" />
+					<TableColumn fx:id="descriptionColumn"
+						text="Description" prefWidth="300" />
+				</columns>
+			</TableView>
+			<HBox alignment="BOTTOM_RIGHT">
+				<Button text="Add FAQ" onAction="#addFAQ" />
+			</HBox>
+		</VBox>
+	</center>
+</BorderPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml" prefWidth="1020" prefHeight="680"
+    fx:controller="vision.controllers.VisionHomeSliderController">
+    <center>
+        <VBox>
+            <TableView fx:id="homeSliderTableView" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="75" />
+                    <TableColumn fx:id="titleColumn" text="Title" prefWidth="175" />
+                    <TableColumn fx:id="titleIconUrlColumn" text="Title Icon URL" prefWidth="200" />
+                    <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="300" />
+                    <TableColumn fx:id="backgroundBannerUrlColumn" text="Background Banner URL" prefWidth="200" />
+                    <TableColumn fx:id="clickUrlColumn" text="Click URL" prefWidth="200" />
+                </columns>
+            </TableView>
+            <HBox alignment="BOTTOM_RIGHT">
+                <Button text="Add HomeSlider" onAction="#addHomeSlider" />
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

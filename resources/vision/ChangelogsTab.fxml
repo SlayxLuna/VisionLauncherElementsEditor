@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml" prefWidth="1020" prefHeight="680"
+    fx:controller="vision.controllers.VisionChangelogController">
+    <center>
+        <VBox>
+            <TableView fx:id="changelogTableView" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="Id" prefWidth="50" />
+                    <TableColumn fx:id="titleColumn" text="Title" prefWidth="200" />
+                    <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="250" />
+                    <TableColumn fx:id="dateColumn" text="Date" prefWidth="150" />
+                    <TableColumn fx:id="serverColumn" text="Server" prefWidth="100" />
+                </columns>
+            </TableView>
+            <HBox alignment="BOTTOM_RIGHT">
+                <Button text="Add Changelog" onAction="#addChangelog" />
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="vision.VisionController"
+            prefWidth="1220" prefHeight="840">
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab fx:id="articlesTab" text="Articles">
+                    <content>
+                        <fx:include source="ArticlesTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  fx:id="changeLogsTab"  text="Changelogs">
+                    <content>
+                        <fx:include source="ChangelogsTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  fx:id="eventsTab"  text="Events">
+                    <content>
+                        <fx:include source="EventsTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  fx:id="faqTab"  text="FAQ">
+                    <content>
+                        <fx:include source="FAQTab.fxml"/>
+                    </content>
+                </Tab>
+                <Tab  fx:id="homeSliderTab"  text="Home Slider">
+                    <content>
+                        <fx:include source="HomeSliderTab.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+
+</BorderPane>

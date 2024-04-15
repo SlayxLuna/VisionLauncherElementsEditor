@@ -1,0 +1,2 @@
+JAVA FX x64 SDK		- https://gluonhq.com/products/javafx/
+Setup JavaFX		- https://www.youtube.com/watch?v=nz8P528uGjk

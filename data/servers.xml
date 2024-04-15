@@ -1,0 +1,15 @@
+<list>
+	<server name="Server 1" >
+		<database url="jdbc:mysql://1.1.1.1:3306/vision_launcher_1" user="root" password="root" />
+	</server>
+	<server name="Server 2" >
+		<database url="jdbc:mysql://1.1.1.1:3306/vision_launcher_2" user="root" password="root" />
+	</server>
+	<server name="Server 3" >
+		<database url="jdbc:mysql://1.1.1.1:3306/vision_launcher_3" user="root" password="root" />
+	</server>
+	<server name="Server 4" >
+		<database url="jdbc:mysql://1.1.1.1:3306/vision_launcher_4" user="root" password="root" />
+	</server>
+</list>
+			

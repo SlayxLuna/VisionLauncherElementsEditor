@@ -1,0 +1,36 @@
+/* main.css */
+
+/* Set the background color of the entire application */
+.root {
+    -fx-background-color: #f2f2f2; /* Light gray */
+}
+
+/* Set the text color of labels to a darker shade of gray */
+.label {
+    -fx-text-fill: #333333; /* Dark gray */
+}
+
+/* Set the background color of buttons to a medium gray */
+.button {
+    -fx-background-color: #cccccc; /* Medium gray */
+}
+
+/* Set the background color of text fields to a lighter gray */
+.text-field {
+    -fx-background-color: #e0e0e0; /* Light gray */
+}
+
+/* Set the background color of choice boxes to a lighter gray */
+.choice-box {
+    -fx-background-color: #e0e0e0; /* Light gray */
+}
+
+/* Set the background color of combo boxes to a lighter gray */
+.combo-box {
+    -fx-background-color: #e0e0e0; /* Light gray */
+}
+
+/* Set the background color of table views to a lighter gray */
+.table-view {
+    -fx-background-color: #e0e0e0; /* Light gray */
+}
